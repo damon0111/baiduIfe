@@ -1,0 +1,155 @@
+/* 导航栏的样式 */
+body {
+	font-family: "Times New Roman",Georgia,Serif;
+	font-size: 100%;
+	background: #FFFFFF;
+}
+#top {
+	background: #3D3939;
+	width: 100%;
+	height: 50px;
+	padding: 5px;
+}
+#img1 {
+	height: 50px;
+	width: 180px;
+}
+#top img{
+     float: left;
+}
+
+#top ul{
+	float: right;	
+	list-style-type: disc;
+}
+#top li{
+	float: left;
+	margin:0px 15px;
+}
+#top a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 0.8em;
+}
+#container {
+	background: lightgray;
+	padding: 5px;
+	width: 100%;
+	height: 100%;
+}
+.article {
+	background: white;
+	margin: 20px;
+	padding: 30px 20px;
+}
+h3{
+	color: gray;
+}
+h5 {
+	color: lightgray;
+}
+.content {
+	text-indent: 2em;
+}
+.bigimage{
+	height: 300px;
+	width: 300px;
+}
+.ulist{
+	list-style-type: none;
+}
+.picture{
+	border: 1px solid lightgray;
+	margin: 20px 50px;
+	padding: 5px;
+	width: 160px;
+	height: 160px;
+	text-align: center;
+}
+.smallimage{
+	width: 140px;
+	height: 100px;
+}
+.artical ol{
+	list-style-type: decimal;
+
+}
+ol li{
+	font-weight: bold;
+}
+table,tr,th,td,tf{
+	border: 1px solid lightgray;
+	padding: 5px;
+}
+table{
+	background: white;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+table th{
+	background: #000000;
+	color: white;
+	font-weight: bold;
+}
+table td{
+	font-size: 80%;
+}
+.tablefoot{
+	background: #A8A4A4;
+	font-weight: bold;
+}
+.articleside{
+	margin: 40px 20px 20px 20px;
+	background: white;
+	padding: 20px ;
+}
+.articleside h3{
+	color: black;
+}
+form{
+	font-size: 0.8em;
+}
+.lineheight{
+	line-height: 2em;
+}
+.sideleft{
+	position: absolute;
+	right: 65%;
+}
+.sideright{
+	position: relative;
+    left: 35%;
+}
+.sidehint{
+	color: #B8B6B6;
+    line-height: 50%;
+    padding: 0px 0px 5px 0px;
+}
+#submitb{
+	text-align: center;
+	color: white;
+	background: #1223DF;
+	border-radius: 2em;
+	width: 95%;
+	height: 60px;
+
+}
+.ccs{
+	text-align: left;
+	display: inline-block;
+	vertical-align:top;
+}
+.submitdiv{
+	text-align: center;
+	margin-top: 20px;
+}
+.bottom{
+	line-height: 60px;
+	width: 100%;
+	height: 60px;
+	background: #050806;
+	color: white;
+	text-align: center;
+}

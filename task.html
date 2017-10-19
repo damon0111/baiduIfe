@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>任务二：零基础HTML及CSS编码</title>
+	<link rel="stylesheet" href="task.css" type="text/css" />
+</head>
+<body>
+	<!-- 导航栏 -->
+	<div id="top">
+		<img src="baidu.png" alt="图片" id="img1"/>
+		<ul>
+			<li><a href="#">导航链接 一</a></li>&nbsp&nbsp&nbsp
+			<li><a href="#">导航链接 二</a></li>&nbsp&nbsp&nbsp
+			<li><a href="#">导航链接 三</a></li>&nbsp&nbsp&nbsp
+			<li><a href="#">导航链接 四</a></li>&nbsp&nbsp&nbsp
+		</ul>	   	
+	</div>
+	<!-- 主体部分 -->
+	<div id="container">
+		<!-- 一 -->
+		<div class="article">
+				<h2><b>文章一级标题</b></h2>
+				<h3>文章二级标题</h3>
+				<h5>文章作者 发表时间</h5>
+				<p class="content">HTML5是HTML最新的修訂版本。</br>2014年10月由万维网联盟（W3C）完成標準制定。 <a href="www.google.com">这里有一个链接地址到www.google.com</a>目標是取代1999年所制定的HTML 4.01和XHTML 1.0標準，以期能在網際網路應用迅速發展的時候，使網路標準達到符合當代的網路需求。</p>
+				<img src="300.jpg" alt="HTML5" title="HTML5" class="bigimage">
+				<p class="content">HTML5是HTML最新的修訂版本。</br>2014年10月由万维网联盟（W3C）完成標準制定。 <span><a href="www.google.com">这里有一个链接地址到www.google.com</a></span>目標是取代1999年所制定的HTML 4.01和XHTML 1.0標準，以期能在網際網路應用迅速發展的時候，使網路標準達到符合當代的網路需求。</p>
+		</div>
+		<!-- 二 -->
+		<div class="article">
+				<h2><b>另一篇文章一级标题</b></h2>
+				<h3>文章二级标题</h3>
+				<h5>文章作者 发表时间</h5>
+				<p class="content">HTML5是HTML最新的修訂版本。</br>2014年10月由万维网联盟（W3C）完成標準制定。 <a href="www.google.com">这里有一个链接地址到www.google.com</a>目標是取代1999年所制定的HTML 4.01和XHTML 1.0標準，以期能在網際網路應用迅速發展的時候，使網路標準達到符合當代的網路需求。</p>
+				<img src="300.jpg" alt="HTML5" title="HTML5" class="bigimage">
+				<ul class="ulist">
+					<li>列表项目一</li>
+					<li>列表项目二</li>
+					<li>列表项目三</li>
+				</ul>
+		</div>
+		<!-- 三 -->
+		<div class="article">
+			<h2><b>图片</b></h2>
+			<div class="picture">
+				<p>好看的图片</p>
+				<img src="300.jpg" alt="HTML5" title="HTML5" class="smallimage">
+			</div>
+			<div class="picture">
+				<p>好看的图片</p>
+				<img src="300.jpg" alt="HTML5" title="HTML5" class="smallimage">
+			</div>
+			<div class="picture">
+				<p>好看的图片</p>
+				<img src="300.jpg" alt="HTML5" title="HTML5" class="smallimage">
+			</div>
+			<div class="picture">
+				<p>好看的图片</p>
+				<img src="300.jpg" alt="HTML5" title="HTML5" class="smallimage">
+			</div>
+			<div class="picture">
+				<p>好看的图片</p>
+				<img src="300.jpg" alt="HTML5" title="HTML5" class="smallimage">
+			</div>
+			<div class="picture">
+				<p>好看的图片</p>
+				<img src="300.jpg" alt="HTML5" title="HTML5" class="smallimage">
+			</div>
+		</div>
+		<!-- 四 -->
+		<div class="article">
+			<h2><b>最后一篇文章一级标题</b></h2>
+			<h3>文章二级标题</h3>
+			<h5>文章作者 发表时间</h5>
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			<p>下面是一个表格，给表格加了一个 border="1"，好看出是个表格</p>
+			<table>
+				<tr>
+					<th>表头</th>
+					<th>表头</th>
+					<th>表头</th>
+				</tr>
+				<tr>
+					<td>表单内容单元格</td>
+					<td>表单内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+					<td>表单内容单元格</td>
+					<td>表单内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+					<td>表单内容单元格</td>
+					<td>表单内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+					<td>表单内容单元格</td>
+					<td>表单内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr class="tablefoot">
+					<td>合计</td>
+					<td colspan="2">1000</td>
+				</tr>
+			</table>
+		</div>
+		<!-- 五侧栏 -->
+		<div class="articleside">
+			<h3><b>这里以后是个侧栏，这是侧栏注册窗口标题</b></h3>
+			<form action="#" method="get" id="side">
+				<div class="lineheight">
+					<lable class="sideleft">请输入邮箱地址</lable>
+					<input type="text" name="emailid" value="这是一个文本输入框" class="sideright">
+				</div>
+				<div class="lineheight">
+					<p class="sidehint sideright">邮箱地址请按要求正确输入</p>
+				</div>
+				<div class="lineheight">
+					<lable class="sideleft">请输入密码</lable>
+					<input type="password" value="********" class="sideright">
+				</div>
+				<div class="lineheight">
+					<lable class="sideleft">请重复输入密码</lable>
+					<input type="password" value="********" class="sideright">
+				</div>
+				<div class="lineheight">
+					<p class="sidehint sideright">密码请为6-16位数字</p>
+				</div>
+				<div class="lineheight">
+					<lable class="sideleft">性别</lable>
+					<input type="radio" name="sex" value="male" checked class="sideright">&nbsp&nbsp
+					<input type="radio" name="sex" value="female" class="sideright" >
+				</div>
+				<div class="lineheight">
+					<lable class="sideleft">城市</lable>
+					<select name="city" class="sideright">
+						<option value="北京">北京</option>
+						<option value="上海">上海</option>
+					</select>
+				</div>
+				<div class="lineheight">
+					<lable class="sideleft">爱好</lable>
+					<input type="checkbox" name="hobby" value="运动" class="sideright"><lable class="sideright">运动&nbsp</lable>
+					<input type="checkbox" name="hobby" value="科学" class="sideright"><lable class="sideright">科学&nbsp</lable>
+					<input type="checkbox" name="hobby" value="艺术" class="sideright"><lable class="sideright">艺术&nbsp</lable>
+				</div>
+				<div class="lineheight">
+					<lable class="sideleft">个人描述</lable>
+					<textarea style="vertical-align: top;"name="discrible" cols="80" rows="10" class="sideright ccs">
+					</textarea>
+				</div>
+				<div class="submitdiv">
+					<input type="submit" name="submit" id="submitb">
+				</div>
+
+			</form>
+		</div>
+	</div>
+	<div class="bottom">版权所有©️</div>
+</body>
+</html>
